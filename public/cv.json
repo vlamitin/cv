@@ -87,12 +87,8 @@
                 "Typescript",
                 "React",
                 "Node.js",
-                "Java",
                 "MongoDB",
-                "Docker",
-                "RabbitMQ",
-                "Google cloud",
-                "Jenkins"
+                "Docker"
               ],
               "projects": {
                 "items": [
@@ -103,10 +99,11 @@
                     ],
                     "features": {
                       "items":[
-                        "Designing frontend architecture for all company's projects",
-                        "Team & tech leading of a frontend core team",
-                        "Best practices documenting and implementation",
-                        "Implementing features and writing tests"
+                        "Development administrating : managing command's tickets flow from prioritized backlog to releases",
+                        "Team and people management: mentoring and motivation, team expertise management and delegation, onboarding, performance reviews",
+                        "System design: designing frontend architecture for all company's projects",
+                        "Quality management: code review, tasks automation, linting, testing",
+                        "Knowledge management: best practices documenting and implementation"
                       ]
                     }
                   },
