@@ -12,9 +12,9 @@ CV, created with [this template](https://github.com/EyalPerry/dev-cv)
 
 ## Usage
 - `npm run start`
-- edit https://github.com/vlamitin/dev-cv/blob/master/public/cv.json
+- edit https://github.com/vlamitin/cv/blob/master/public/cv.json
 - save pdf with chrome browser
-- or run make pdf
+- or run `make pdf` (currently only linux supported)
 
 ## How to Use
 0) install Node.js, and run the 'npm install' command in the project root folder.
