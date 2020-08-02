@@ -1,0 +1,21 @@
+
+.project {
+  margin-bottom: 10px;
+  padding: 5px 0 0 0;
+  width: auto;
+
+  .name {
+    font-size: 11pt;
+    font-weight: 600;
+    padding-right: 7px;
+    display: inline;
+    color: hsl(0,0%,35%);
+  }
+
+  .description {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 10pt;
+    margin-right: 5px;
+  }
+}

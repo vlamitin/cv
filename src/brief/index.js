@@ -1,0 +1,1 @@
+export {Brief as default} from './brief';

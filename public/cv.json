@@ -1,0 +1,250 @@
+{
+  "pages": [
+    [
+      [
+        "brief",
+        {
+          "person": {
+            "name": "Eyal Perry",
+            "title": "Software Engineer",
+            "residence": "Karmiel, Israel.",
+            "headshot": {
+              "source": "http://localhost:3000/headshot.png"
+            },
+            "mobile": "+972-54-314-6808",
+            "skype": "e.perry.pa",
+            "email": "e.perry.pa@gmail.com"
+          },
+          "links": [
+            {
+              "url": "https://www.linkedin.com/in/eyalperry/",
+              "imageSource": "http://localhost:3000/linkedin.png",
+              "imageAlt": "LinkedIn"
+            },
+            {
+              "url":"https://twitter.com/_eyalPerry",
+              "imageSource":"http://localhost:3000/twitter.png",
+              "imageAlt": "Twitter"
+            },
+            {
+              "url": "https://stackoverflow.com/story/eyal-perry",
+              "imageSource": "http://localhost:3000/stackoverflow.png",
+              "imageAlt": "StackOverflow"
+            },
+            {
+              "url": "https://github.com/EyalPerry",
+              "imageSource": "http://localhost:3000/github.svg",
+              "imageAlt": "GitHub"
+            }
+          ],
+          "knowledge": {
+            "technologies": {
+              "items": [
+                {
+                  "name": "Javascript",
+                  "value": "Proficient"
+                },
+                {
+                  "name": "React",
+                  "value": "Proficient"
+                },
+                {
+                  "name": "Node.js",
+                  "value": "Proficient"
+                },
+                {
+                  "name": "Docker",
+                  "value": "Proficient"
+                },
+                {
+                  "name": "MongoDB",
+                  "value": "Intermediate"
+                }
+              ]
+            },
+            "paradigms": {
+              "items": [
+                "Test Driven",
+                "Async",
+                "Object Oriented",
+                "Functional",
+                "Microservices",
+                "Reactive"
+              ]
+            }
+          }
+        }
+      ],
+      [
+        "experience",
+        {
+          "label": "Experience",
+          "items": [
+            {
+              "title": "Senior Full Stack Engineer",
+              "company": "InVision",
+              "startDate": "September 2019",
+              "description": [
+                "Developing and testing InVision's Design System Manager (DSM)."
+              ],
+              "techStack": [
+                "Javascript",
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Docker"
+              ]
+            },
+            {
+              "title": "Senior Full Stack Engineer",
+              "company": "Wix",
+              "startDate": "December 2018",
+              "endDate": "August 2019",
+              "description": [
+                "Developing and testing the Wix.com dashboard."
+              ],
+              "techStack": [
+                "Javascript",
+                "Typescript",
+                "React",
+                "Node.js",
+                "MySql",
+                "Docker"
+              ]
+            },
+            {
+              "title": "Full Stack Engineer",
+              "company": "CorAlert",
+              "startDate": "July 2017",
+              "endDate": "November 2018",
+              "description": [
+                "Designing, Testing & Developing a Cloud Backed IoT application."
+              ],
+              "techStack": [
+                "Javascript",
+                "React",
+                "Node.js",
+                "MongoDB",
+                ".NET Core",
+                "C#",
+                "RabbitMQ",
+                "Docker",
+                "AWS"
+              ],
+              "projects": {
+                "items": [
+                  {
+                    "name": "CorAlert Device",
+                    "description": [
+                      "Development of a software stack for a medical device which detects heart failure."
+                    ],
+                    "features": {
+                      "items":[
+                        "Upstream synchronization of logs and data.",
+                        "Downstream synchronization of software versions and configuration profiles.",
+                        "Configurable Parallelism of Medical algorithms."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "CorAlert Management Console",
+                    "description": [
+                      "Development of a cloud application which complements the company's device."
+                    ],
+                    "features": {
+                      "items":[
+                        "Track the status of devices.",
+                        "Deploy and create device configuration profiles.",
+                        "Deploy software versions to devices.",
+                        "View device logs (both historical and real time).",
+                        "View device generated data."
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    ],
+    [
+      [
+        "experience",
+        {
+          "items": [
+            {
+              "title": "Software Engineer",
+              "company": "CodeValue",
+              "startDate": "March 2016",
+              "endDate": "July 2017",
+              "description": [
+                "Developing Software Systems and API's, as specified by client stakeholders."
+              ],
+              "techStack": [
+                "C#",
+                ".NET",
+                "MongoDB",
+                "WPF"
+              ]
+            },
+            {
+              "title": "Software Engineer",
+              "company": "Zeiss",
+              "startDate": "February 2013",
+              "endDate": "March 2016",
+              "description": [
+                "Development of in-house and client facing Software Systems.",
+                "Part Time Position."
+              ],
+              "techStack": [
+                "C#",
+                "WPF",
+                ".NET",
+                "Entity Framework"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        "education",
+        {
+          "label": "Education",
+          "items": [
+            {
+              "degree": "B.Sc. Software Engineering",
+              "institution": "Ort Braude College",
+              "gpa": 83,
+              "classOf": 2016,
+              "techStack": [
+                "C#",
+                ".NET",
+                "Entity Framework",
+                "Android"
+              ],
+              "projects": {
+                "items": [
+                  {
+                    "name": "Smart Calendar",
+                    "description": [
+                      "An Android Application which enhances itinerary management with location awareness."
+                    ],
+                    "features": {
+                      "items":[
+                        "Leave On Time for next appointment.",
+                        "Predict missed appointments.",
+                        "Team Itinerary planning and management.",
+                        "On site and on time presence assurance."
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    ]
+  ]
+}

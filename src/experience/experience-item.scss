@@ -1,0 +1,35 @@
+
+.experience-item {
+
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "company duration" "title title" "paragraphs paragraphs" "proj proj" "tech tech";
+  grid-gap: 7px 0;
+  margin-bottom: 15px;
+
+  .title {
+    grid-area: title;
+    font-weight: 600;
+    font-size: 14pt;
+  }
+
+  .duration {
+    grid-area: duration;
+    padding-left: 15px;
+  }
+
+  .company {
+    grid-area: company;
+    font-size: 16pt;
+    font-weight: bold;
+  }
+
+  .tech-stack {
+    grid-area: tech;
+  }
+
+  .projects {
+    grid-area: proj;
+  }
+}

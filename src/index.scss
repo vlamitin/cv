@@ -1,0 +1,33 @@
+@page {
+  size: A4;
+}
+
+html {
+  background-color: rgb(194, 211, 208);
+  font-family: Niramit, Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  line-height: 130%;
+}
+
+body {
+  margin: 5px auto;
+  width: 210mm;
+  -webkit-print-color-adjust: exact;
+}
+
+div, ul, p, a, section, a, li, span {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-weight: 400;
+}

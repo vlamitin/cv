@@ -1,0 +1,33 @@
+.page {
+
+  width: 210mm;
+  height: 297mm;
+  display: block;
+  overflow: hidden;
+
+  padding: 5px 7px;
+
+  margin-top: 20px;
+  background-color: white;
+
+  page-break-after: always;
+  page-break-before: avoid;
+  page-break-inside: avoid;
+
+  .page-container {
+
+    width: 210mm;
+    max-height: 297mm;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px 5px;
+  }
+
+  .section-label {
+    font-size:20pt;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+}

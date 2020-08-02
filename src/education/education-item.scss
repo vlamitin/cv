@@ -1,0 +1,44 @@
+.education-item {
+  margin-left: 10px;
+  display: grid;
+  grid-template-rows: auto auto auto auto 1fr;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "degree institution"
+                       "classof classof"
+                       "gpa gpa"
+                       "proj proj"
+                       "tech tech"
+                       ;
+
+  grid-gap: 3px 5px;
+
+  padding-bottom: 10px;
+  .degree {
+    grid-area: degree;
+    font-size: 0.95rem;
+  }
+
+  .institution {
+    grid-area: institution;
+    font-size: 0.95rem;
+  }
+
+  .gpa {
+    grid-area: gpa;
+    font-size: 0.9rem;
+    margin-bottom: 3px;
+  }
+
+  .class-of {
+    grid-area: classof;
+    font-size: 0.9rem;
+  }
+
+  .tech-stack {
+    grid-area: tech;
+  }
+
+  .projects {
+    grid-area: proj;
+  }
+}

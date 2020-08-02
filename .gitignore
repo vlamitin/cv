@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# output
+/dist
+
+# ide
+/.idea
+/.vscode
+/.vs
+
+.DS_Store
