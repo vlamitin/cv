@@ -34,4 +34,4 @@ Then- make sure to omit the label key from the objects which reside on pages oth
 1) Each page entry in cv.json will be printed on it's own page.
 
 ## Generated pdf
-[Vladimir_Mitin_CV.pdf](https://github.com/vlamitin/dev-cv/blob/master/Vladimir_Mitin_CV.pdf)
+[Vladimir_Mitin_CV.pdf](https://github.com/vlamitin/cv/blob/master/Vladimir_Mitin_CV.pdf)
