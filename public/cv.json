@@ -1,40 +1,31 @@
 {
+  "title": "Vladimir Mitin's CV",
   "pages": [
     [
       [
         "brief",
         {
           "person": {
-            "name": "Eyal Perry",
+            "name": "Vladimir Mitin",
             "title": "Software Engineer",
-            "residence": "Karmiel, Israel.",
+            "residence": "Saint Petersburg, Russia",
             "headshot": {
-              "source": "http://localhost:3000/headshot.png"
+              "source": "/headshot.png"
             },
-            "mobile": "+972-54-314-6808",
-            "skype": "e.perry.pa",
-            "email": "e.perry.pa@gmail.com"
+            "mobile": "+7 931-___-__-__",
+            "skype": "vlamitin",
+            "email": "vmitin.dev@gmail.com"
           },
           "links": [
             {
-              "url": "https://www.linkedin.com/in/eyalperry/",
-              "imageSource": "http://localhost:3000/linkedin.png",
-              "imageAlt": "LinkedIn"
-            },
-            {
-              "url":"https://twitter.com/_eyalPerry",
-              "imageSource":"http://localhost:3000/twitter.png",
-              "imageAlt": "Twitter"
-            },
-            {
-              "url": "https://stackoverflow.com/story/eyal-perry",
-              "imageSource": "http://localhost:3000/stackoverflow.png",
-              "imageAlt": "StackOverflow"
-            },
-            {
-              "url": "https://github.com/EyalPerry",
-              "imageSource": "http://localhost:3000/github.svg",
+              "url": "https://github.com/vlamitin",
+              "imageSource": "/github.svg",
               "imageAlt": "GitHub"
+            },
+            {
+              "url": "https://www.linkedin.com/in/vlamitin",
+              "imageSource": "/linkedin.png",
+              "imageAlt": "LinkedIn"
             }
           ],
           "knowledge": {
@@ -45,31 +36,34 @@
                   "value": "Proficient"
                 },
                 {
+                  "name": "Node.js",
+                  "value": "Advanced"
+                },
+                {
                   "name": "React",
                   "value": "Proficient"
                 },
                 {
-                  "name": "Node.js",
-                  "value": "Proficient"
+                  "name": "Linux",
+                  "value": "Advanced"
                 },
                 {
-                  "name": "Docker",
-                  "value": "Proficient"
+                  "name": "Python",
+                  "value": "Intermediate"
                 },
                 {
-                  "name": "MongoDB",
+                  "name": "Go",
                   "value": "Intermediate"
                 }
               ]
             },
-            "paradigms": {
+            "additionalInfo": {
+              "label": "Expertise & Interests",
               "items": [
-                "Test Driven",
-                "Async",
-                "Object Oriented",
-                "Functional",
-                "Microservices",
-                "Reactive"
+                "User interface",
+                "Developer Experience",
+                "Automation scripts",
+                "System design"
               ]
             }
           }
@@ -81,127 +75,84 @@
           "label": "Experience",
           "items": [
             {
-              "title": "Senior Full Stack Engineer",
-              "company": "InVision",
-              "startDate": "September 2019",
+              "title": "Software Engineer",
+              "company": "CSI",
+              "startDate": "January 2017",
               "description": [
-                "Developing and testing InVision's Design System Manager (DSM)."
-              ],
-              "techStack": [
-                "Javascript",
-                "React",
-                "Node.js",
-                "MongoDB",
-                "Docker"
-              ]
-            },
-            {
-              "title": "Senior Full Stack Engineer",
-              "company": "Wix",
-              "startDate": "December 2018",
-              "endDate": "August 2019",
-              "description": [
-                "Developing and testing the Wix.com dashboard."
+                "Designing, Testing & Developing company's React and Node.js projects.",
+                "Frontend core team leading."
               ],
               "techStack": [
                 "Javascript",
                 "Typescript",
                 "React",
                 "Node.js",
-                "MySql",
-                "Docker"
-              ]
-            },
-            {
-              "title": "Full Stack Engineer",
-              "company": "CorAlert",
-              "startDate": "July 2017",
-              "endDate": "November 2018",
-              "description": [
-                "Designing, Testing & Developing a Cloud Backed IoT application."
-              ],
-              "techStack": [
-                "Javascript",
-                "React",
-                "Node.js",
+                "Java",
                 "MongoDB",
-                ".NET Core",
-                "C#",
-                "RabbitMQ",
                 "Docker",
-                "AWS"
+                "RabbitMQ",
+                "Google cloud",
+                "Jenkins"
               ],
               "projects": {
                 "items": [
                   {
-                    "name": "CorAlert Device",
+                    "name": "Set Retail 10",
                     "description": [
-                      "Development of a software stack for a medical device which detects heart failure."
+                      "System design and development for a huge retail management system and its sub-systems: cash registers, kiosks, management consoles, etc"
                     ],
                     "features": {
                       "items":[
-                        "Upstream synchronization of logs and data.",
-                        "Downstream synchronization of software versions and configuration profiles.",
-                        "Configurable Parallelism of Medical algorithms."
+                        "Designing frontend architecture for all company's projects",
+                        "Team & tech leading of a frontend core team",
+                        "Best practices documenting and implementation",
+                        "Implementing features and writing tests"
                       ]
                     }
                   },
                   {
-                    "name": "CorAlert Management Console",
+                    "name": "Set Wallet",
                     "description": [
-                      "Development of a cloud application which complements the company's device."
+                      "Development of a microservice-structured Node.js cloud application for loyalty cards"
                     ],
                     "features": {
                       "items":[
-                        "Track the status of devices.",
-                        "Deploy and create device configuration profiles.",
-                        "Deploy software versions to devices.",
-                        "View device logs (both historical and real time).",
-                        "View device generated data."
+                        "Debugging and problem solving",
+                        "Documentation and testing"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Set Prisma",
+                    "description": [
+                      "Designing and implementing UI-part of a sophisticated CCTV system"
+                    ],
+                    "features": {
+                      "items":[
+                        "Designing client-server protocol",
+                        "Domain architecture of a sophisticated system for violations detecting",
+                        "Developing & Testing of a UI-part of the system including video-player and other complicated widgets"
                       ]
                     }
                   }
                 ]
               }
-            }
-          ]
-        }
-      ]
-    ],
-    [
-      [
-        "experience",
-        {
-          "items": [
-            {
-              "title": "Software Engineer",
-              "company": "CodeValue",
-              "startDate": "March 2016",
-              "endDate": "July 2017",
-              "description": [
-                "Developing Software Systems and API's, as specified by client stakeholders."
-              ],
-              "techStack": [
-                "C#",
-                ".NET",
-                "MongoDB",
-                "WPF"
-              ]
             },
             {
-              "title": "Software Engineer",
-              "company": "Zeiss",
-              "startDate": "February 2013",
-              "endDate": "March 2016",
+              "title": "Frontend developer",
+              "company": "Vircities",
+              "startDate": "October 2016",
+              "endDate": "December 2016",
               "description": [
-                "Development of in-house and client facing Software Systems.",
-                "Part Time Position."
+                "Development and testing of a browser version for a mobile game"
               ],
               "techStack": [
-                "C#",
-                "WPF",
-                ".NET",
-                "Entity Framework"
+                "Javascript",
+                "React",
+                "React Native",
+                "Sass",
+                "Webpack",
+                "Android"
               ]
             }
           ]
@@ -213,34 +164,9 @@
           "label": "Education",
           "items": [
             {
-              "degree": "B.Sc. Software Engineering",
-              "institution": "Ort Braude College",
-              "gpa": 83,
-              "classOf": 2016,
-              "techStack": [
-                "C#",
-                ".NET",
-                "Entity Framework",
-                "Android"
-              ],
-              "projects": {
-                "items": [
-                  {
-                    "name": "Smart Calendar",
-                    "description": [
-                      "An Android Application which enhances itinerary management with location awareness."
-                    ],
-                    "features": {
-                      "items":[
-                        "Leave On Time for next appointment.",
-                        "Predict missed appointments.",
-                        "Team Itinerary planning and management.",
-                        "On site and on time presence assurance."
-                      ]
-                    }
-                  }
-                ]
-              }
+              "degree": "Medical residency degree",
+              "institution": "Volgograd State Medical University",
+              "classOf": 2011
             }
           ]
         }

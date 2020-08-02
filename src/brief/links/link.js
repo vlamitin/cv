@@ -28,7 +28,7 @@ export class Link extends React.Component {
 
         return (
             <div className={className}>
-                <a href={url} className={linkClassName}>
+                <a href={url} target="_blank" className={linkClassName}>
                     <img src={imageSource} alt={imageAlt} className={imageClassName}/>
                 </a>
             </div>

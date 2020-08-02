@@ -1,10 +1,10 @@
 import React from 'react';
-import './paradigm-item.scss';
+import './additional-info-item.scss';
 
-export class ParadigmItem extends React.Component {
+export class AdditionalInfoItem extends React.Component {
 
     static defaultProps = {
-        className: 'paradigm-item',
+        className: 'interest-item',
     };
 
     static getKey = (item) => {

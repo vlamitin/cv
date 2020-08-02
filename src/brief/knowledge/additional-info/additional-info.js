@@ -1,20 +1,20 @@
 import React from 'react';
 
-import {ParadigmItem} from "./paradigm-item";
+import {AdditionalInfoItem} from "./additional-info-item";
 import {LabeledList} from "Common";
-import "./paradigms.scss";
+import "./additional-info.scss";
 
-export class Paradigms extends React.Component {
+export class AdditionalInfo extends React.Component {
 
     static defaultProps = {
-        className: 'paradigms',
-        listClassName:'paradigm-container'
+        className: 'additional-info',
+        listClassName:'additional-info-container'
     };
 
     render(){
         const {
             value: {
-                label = 'Paradigms',
+                label = 'AdditionalInfo',
                 items
             },
             className,
@@ -25,7 +25,7 @@ export class Paradigms extends React.Component {
         return (
             <LabeledList items={items}
                          label={label}
-                         ItemComponent={ParadigmItem}
+                         ItemComponent={AdditionalInfoItem}
                          className={className}
                          labelClassName={labelClassName}
                          listClassName={listClassName}

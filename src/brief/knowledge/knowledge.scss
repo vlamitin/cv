@@ -3,7 +3,7 @@
   grid-area: knowledge;
 
   display: grid;
-  grid-template-areas: "technologies" "paradigms" ;
+  grid-template-areas: "technologies" "additional-info" ;
   grid-auto-columns: auto;
 
   .knowledge-label {

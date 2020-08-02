@@ -5,9 +5,7 @@
   grid-template-columns: auto 1fr;
   grid-template-areas: "degree institution"
                        "classof classof"
-                       "gpa gpa"
                        "proj proj"
-                       "tech tech"
                        ;
 
   grid-gap: 3px 5px;
@@ -23,19 +21,9 @@
     font-size: 0.95rem;
   }
 
-  .gpa {
-    grid-area: gpa;
-    font-size: 0.9rem;
-    margin-bottom: 3px;
-  }
-
   .class-of {
     grid-area: classof;
     font-size: 0.9rem;
-  }
-
-  .tech-stack {
-    grid-area: tech;
   }
 
   .projects {

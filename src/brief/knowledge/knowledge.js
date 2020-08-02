@@ -1,6 +1,6 @@
 import React from 'react'
 import {Technologies} from "./technologies";
-import {Paradigms} from "./paradigms";
+import {AdditionalInfo} from "./additional-info";
 import './knowledge.scss';
 
 export class Knowledge extends React.Component {
@@ -15,7 +15,7 @@ export class Knowledge extends React.Component {
         const {
             value: {
                 technologies,
-                paradigms,
+                additionalInfo,
             },
             className,
             labelClassName
@@ -28,7 +28,7 @@ export class Knowledge extends React.Component {
                               labelClassName={labelClassName}
                 />
 
-                <Paradigms value={paradigms}
+                <AdditionalInfo value={additionalInfo}
                            labelClassName={labelClassName}
                 />
                 

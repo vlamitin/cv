@@ -2,9 +2,13 @@
   "name": "dev-cv",
   "version": "0.0.1",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server"
+    "start": "./node_modules/.bin/webpack-dev-server --port 3000",
+    "start:public": "npm run start -- --host 0.0.0.0 --useLocalIp",
+    "save-pdf": "node pdf-saver/save-pdf.js"
   },
   "dependencies": {
+    "minimist": "^1.2.5",
+    "puppeteer": "^5.2.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },

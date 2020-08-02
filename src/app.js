@@ -10,16 +10,21 @@ class App extends Component {
         loadingContent: 'Loading ...'
     };
 
-    state = {};
+    state = {
+        cv: null
+    };
 
     componentDidCatch = (error, errorInfo) => {
         this.setState({error, errorInfo});
     };
 
     componentDidMount = () => {
-        (fetch('http://localhost:3000/cv.json')
+        (fetch('/cv.json')
             .then(response => response.json())
-            .then(value => this.setState({value}))
+            .then(cv => {
+                document.title = cv.title
+                this.setState({cv})
+            })
             .catch(error => {
                 this.setState({error})
             }));
@@ -34,7 +39,7 @@ class App extends Component {
         } = this.props;
 
         const {
-            value,
+            cv,
             error,
             errorInfo = ''
         } = this.state;
@@ -47,7 +52,7 @@ class App extends Component {
             );
         }
 
-        if (typeof value === 'undefined') {
+        if (!cv) {
             return (
                 <div className={loadingClassName}>
                     {loadingContent}
@@ -57,14 +62,14 @@ class App extends Component {
 
         const {
             pages = []
-        } = value;
+        } = cv;
 
         return pages.map(this.renderPage);
     }
 
-    renderPage = (value, index) => {
+    renderPage = (cv, index) => {
         return (
-            <Page value={value} key={index}/>
+            <Page value={cv} key={index}/>
         );
     }
 }

@@ -1,12 +1,20 @@
-# Developer CV Template
+# CV
 
 ## What is it
-A *Print Friendly* CV web app, which you can easily set up, modify and export to PDF.
+CV, created with [this template](https://github.com/EyalPerry/dev-cv)
 
-## Tech Stack
-- React
-- SCSS
-- JSON
+## Prerequisites:
+- nodejs v 12.3.*
+- npm v 6.*
+
+## Installation
+- `npm ci`
+
+## Usage
+- `npm run start`
+- edit https://github.com/vlamitin/dev-cv/blob/master/public/cv.json
+- save pdf with chrome browser
+- or run make pdf
 
 ## How to Use
 0) install Node.js, and run the 'npm install' command in the project root folder.
@@ -25,5 +33,5 @@ Then- make sure to omit the label key from the objects which reside on pages oth
 
 1) Each page entry in cv.json will be printed on it's own page.
 
-## Output Example
-[Click Here](https://github.com/EyalPerry/dev-cv/blob/master/output-example.pdf)
+## Generated pdf
+[Vladimir_Mitin_CV.pdf](https://github.com/vlamitin/dev-cv/blob/master/Vladimir_Mitin_CV.pdf)

@@ -1,1 +1,0 @@
-export {Paradigms} from './paradigms';
