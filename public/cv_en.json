@@ -30,7 +30,7 @@
           ],
           "knowledge": {
             "technologies": {
-              "label": "Технологии",
+              "label": "Technologies",
               "items": [
                 {
                   "name": "Javascript",
