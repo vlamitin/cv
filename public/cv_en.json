@@ -30,6 +30,7 @@
           ],
           "knowledge": {
             "technologies": {
+              "label": "Технологии",
               "items": [
                 {
                   "name": "Javascript",
@@ -60,10 +61,10 @@
             "additionalInfo": {
               "label": "Expertise & Interests",
               "items": [
-                "User interface",
+                "System design",
                 "Developer Experience",
                 "Automation scripts",
-                "System design"
+                "User interface"
               ]
             }
           }

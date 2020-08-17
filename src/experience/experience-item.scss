@@ -6,7 +6,6 @@
   grid-template-columns: auto 1fr;
   grid-template-areas: "company duration" "title title" "paragraphs paragraphs" "proj proj" "tech tech";
   grid-gap: 7px 0;
-  margin-bottom: 15px;
 
   .title {
     grid-area: title;

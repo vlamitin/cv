@@ -30,6 +30,7 @@
           ],
           "knowledge": {
             "technologies": {
+              "label": "Технологии",
               "items": [
                 {
                   "name": "Javascript",
@@ -60,10 +61,10 @@
             "additionalInfo": {
               "label": "Навыки и интересы",
               "items": [
-                "User interface",
+                "System design",
                 "Developer Experience",
                 "Automation scripts",
-                "System design"
+                "User interface"
               ]
             }
           }
@@ -103,13 +104,13 @@
                       "Проектирование и разработка сложной retail management system и ее подсистем"
                     ],
                     "duties": {
-                      "label": "Duties",
+                      "label": "Обязанности",
                       "items":[
-                        "Development administrating: managing command's tickets flow from prioritized backlog to releases",
-                        "Team and people management: mentoring and motivation, team expertise management and delegation, onboarding, performance reviews",
-                        "System design: designing frontend architecture for all company's projects",
-                        "Quality management: code review, tasks automation, linting, testing",
-                        "Knowledge management: best practices documenting and implementation"
+                        "Управление разработкой: контроль потока задач команды от приоритизированного бэклога до релизов",
+                        "Управление командой: менторинг, мотивация, менеджмент компетенций в команде, onboarding, performance reviews",
+                        "Проектирование систем: архитектура фронтенда для всех проектов в компании",
+                        "Управление качеством: code review, автоматизация задач, linting, тестирование",
+                        "Управление знаниями: документирование и внедрение best practices"
                       ]
                     }
                   },
@@ -119,10 +120,10 @@
                       "Разработка облачного микросервисного Node.js cloud приложения для карт лояльности"
                     ],
                     "duties": {
-                      "label": "Duties",
+                      "label": "Обязанности",
                       "items":[
-                        "Debugging and problem solving",
-                        "Documentation and testing"
+                        "Разработка, решение проблем",
+                        "Документация и тестирование"
                       ]
                     }
                   },
@@ -132,11 +133,11 @@
                       "Проектирование и реализация UI-части сложной системы видеонаблюдения"
                     ],
                     "duties": {
-                      "label": "Duties",
+                      "label": "Обязанности",
                       "items":[
-                        "Designing client-server protocol",
-                        "Domain architecture of a sophisticated system for violations detecting",
-                        "Developing & Testing of a UI-part of the system including video-player and other complicated widgets"
+                        "Проектирование протокола общения клиент-сервер",
+                        "Доменная архитектура",
+                        "Разработка и тестирование UI-части, в т.ч. сложных виджетов"
                       ]
                     }
                   }
