@@ -7,6 +7,7 @@
     "save-pdf": "node pdf-saver/save-pdf.js"
   },
   "dependencies": {
+    "hookrouter": "^1.2.3",
     "minimist": "^1.2.5",
     "puppeteer": "^5.2.1",
     "react": "^16.7.0",

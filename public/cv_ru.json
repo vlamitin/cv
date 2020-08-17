@@ -1,14 +1,14 @@
 {
-  "title": "Vladimir Mitin's CV",
+  "title": "Владимир Митин, резюме",
   "pages": [
     [
       [
         "brief",
         {
           "person": {
-            "name": "Vladimir Mitin",
-            "title": "Software Engineer",
-            "residence": "Saint Petersburg, Russia",
+            "name": "Владимир Митин",
+            "title": "Разработчик",
+            "residence": "Санкт-Петербург, Россия",
             "headshot": {
               "source": "/headshot.png"
             },
@@ -58,7 +58,7 @@
               ]
             },
             "additionalInfo": {
-              "label": "Expertise & Interests",
+              "label": "Навыки и интересы",
               "items": [
                 "User interface",
                 "Developer Experience",
@@ -72,34 +72,40 @@
       [
         "experience",
         {
-          "label": "Experience",
+          "label": "Опыт",
           "items": [
             {
-              "title": "Software Engineer",
+              "title": "Разработчик",
               "company": "CSI",
-              "startDate": "January 2017",
+              "startDate": "Январь 2017",
+              "endDate": "Настоящее время",
               "description": [
-                "Designing, Testing & Developing company's React and Node.js projects.",
-                "Frontend core team leading."
+                "Проектирование, разработка и тестирование React и Node.js проектов в компании",
+                "Управление командой Frontend core"
               ],
-              "techStack": [
-                "Javascript",
-                "Typescript",
-                "React",
-                "Node.js",
-                "MongoDB",
-                "Docker"
-              ],
+              "techStack": {
+                "label": "Используемые технологии",
+                "items": [
+                  "Javascript",
+                  "Typescript",
+                  "React",
+                  "Node.js",
+                  "MongoDB",
+                  "Docker"
+                ]
+              },
               "projects": {
+                "label": "Проекты",
                 "items": [
                   {
                     "name": "Set Retail 10",
                     "description": [
-                      "System design and development for a huge retail management system and its sub-systems: cash registers, kiosks, management consoles, etc"
+                      "Проектирование и разработка сложной retail management system и ее подсистем"
                     ],
-                    "features": {
+                    "duties": {
+                      "label": "Duties",
                       "items":[
-                        "Development administrating : managing command's tickets flow from prioritized backlog to releases",
+                        "Development administrating: managing command's tickets flow from prioritized backlog to releases",
                         "Team and people management: mentoring and motivation, team expertise management and delegation, onboarding, performance reviews",
                         "System design: designing frontend architecture for all company's projects",
                         "Quality management: code review, tasks automation, linting, testing",
@@ -110,9 +116,10 @@
                   {
                     "name": "Set Wallet",
                     "description": [
-                      "Development of a microservice-structured Node.js cloud application for loyalty cards"
+                      "Разработка облачного микросервисного Node.js cloud приложения для карт лояльности"
                     ],
-                    "features": {
+                    "duties": {
+                      "label": "Duties",
                       "items":[
                         "Debugging and problem solving",
                         "Documentation and testing"
@@ -122,9 +129,10 @@
                   {
                     "name": "Set Prisma",
                     "description": [
-                      "Designing and implementing UI-part of a sophisticated CCTV system"
+                      "Проектирование и реализация UI-части сложной системы видеонаблюдения"
                     ],
-                    "features": {
+                    "duties": {
+                      "label": "Duties",
                       "items":[
                         "Designing client-server protocol",
                         "Domain architecture of a sophisticated system for violations detecting",
@@ -136,21 +144,24 @@
               }
             },
             {
-              "title": "Frontend developer",
+              "title": "Фронтенд разработчик",
               "company": "Vircities",
-              "startDate": "October 2016",
-              "endDate": "December 2016",
+              "startDate": "Октябрь 2016",
+              "endDate": "Декабрь 2016",
               "description": [
-                "Development and testing of a browser version for a mobile game"
+                "Разработка и тестирование браузерной версии популярной мобильной игры"
               ],
-              "techStack": [
-                "Javascript",
-                "React",
-                "React Native",
-                "Sass",
-                "Webpack",
-                "Android"
-              ]
+              "techStack": {
+                "label": "Используемые технологии",
+                "items": [
+                  "Javascript",
+                  "React",
+                  "React Native",
+                  "Sass",
+                  "Webpack",
+                  "Android"
+                ]
+              }
             }
           ]
         }
@@ -158,12 +169,14 @@
       [
         "education",
         {
-          "label": "Education",
+          "label": "Образование",
           "items": [
             {
-              "degree": "Medical residency degree",
-              "institution": "Volgograd State Medical University",
-              "classOf": 2011
+              "degree": "Врач",
+              "institution": "Волгоградский Государственный Медицинский Университет",
+              "preClassOf": "Выпуск ",
+              "classOf": 2011,
+              "postClassOf": ""
             }
           ]
         }

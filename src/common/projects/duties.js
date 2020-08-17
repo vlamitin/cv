@@ -1,16 +1,16 @@
 import React from 'react';
-import './features.scss';
-import {FeatureItem} from "./feature-item";
+import './duties.scss';
+import {DutiesItem} from "./duties-item";
 import {LabeledList} from "Common/labeled-list";
 
-export class Features extends React.Component {
+export class Duties extends React.Component {
 
     static defaultProps = {
-        className: 'features',
-        labelClassName: 'features-label',
+        className: 'duties',
+        labelClassName: 'duties-label',
         listClassName: 'items',
         defaults: {
-            label: "Features"
+            label: "Duties"
         }
     };
 
@@ -28,13 +28,12 @@ export class Features extends React.Component {
             return null;
         }
 
-        console.log(value);
         const {label, items} = {...defaults, ...value};
 
         return (
             <LabeledList items={items}
                          label={label}
-                         ItemComponent={FeatureItem}
+                         ItemComponent={DutiesItem}
                          className={className}
                          labelClassName={labelClassName}
                          listClassName={listClassName}

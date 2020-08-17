@@ -1,77 +1,68 @@
-import React, {Component} from 'react';
+import React, { Component, useEffect, useState } from 'react';
+import { useRoutes } from 'hookrouter';
 
 import Page from './page';
 
 class App extends Component {
-
-    static defaultProps = {
-        errorClassName: 'cv-load-error',
-        loadingClassName: 'cv-loading',
-        loadingContent: 'Loading ...'
-    };
-
     state = {
-        cv: null
+        error: null,
+        errorInfo: ''
     };
 
     componentDidCatch = (error, errorInfo) => {
-        this.setState({error, errorInfo});
-    };
-
-    componentDidMount = () => {
-        (fetch('/cv.json')
-            .then(response => response.json())
-            .then(cv => {
-                document.title = cv.title
-                this.setState({cv})
-            })
-            .catch(error => {
-                this.setState({error})
-            }));
+        this.setState({ error, errorInfo });
     };
 
     render() {
-
         const {
-            errorClassName,
-            loadingClassName,
-            loadingContent
-        } = this.props;
-
-        const {
-            cv,
             error,
             errorInfo = ''
         } = this.state;
 
-        if (typeof error !== "undefined") {
+        if (error) {
             return (
-                <div className={errorClassName}>
+                <div className="cv-load-error">
                     {`${error.toString()}\r\n\r\n${errorInfo.toString()}`}
                 </div>
             );
         }
-
-        if (!cv) {
-            return (
-                <div className={loadingClassName}>
-                    {loadingContent}
-                </div>
-            );
-        }
-
-        const {
-            pages = []
-        } = cv;
-
-        return pages.map(this.renderPage);
+        return <Routes />
     }
+}
 
-    renderPage = (cv, index) => {
+const Routes = () => {
+    return useRoutes({
+        '/': () => <CV jsonPath="/cv_en.json" />,
+        '/en': () => <CV jsonPath="/cv_en.json" />,
+        '/ru': () => <CV jsonPath="/cv_ru.json" />
+    })
+}
+
+const CV = ({ jsonPath }) => {
+    const [cv, setSv] = useState(null)
+
+    useEffect(() => {
+        fetch(jsonPath)
+            .then(response => response.json())
+            .then(res => {
+                document.title = res.title
+                setSv(res)
+            })
+    }, [jsonPath])
+
+    console.log('cv', cv)
+
+    if (!cv) {
         return (
-            <Page value={cv} key={index}/>
+            <div className="cv-loading">
+                { 'Loading ...' }
+            </div>
         );
     }
+
+    const { pages = [] } = cv;
+
+    return pages.map((cv, index) => <Page value={cv} key={index}/>);
 }
 
 export default App;

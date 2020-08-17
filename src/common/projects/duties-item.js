@@ -1,10 +1,10 @@
 import React from 'react';
 import Bullet from './bullet.svg';
-import './feature-item.scss';
+import './duties-item.scss';
 
-export class FeatureItem extends React.Component {
+export class DutiesItem extends React.Component {
     static defaultProps = {
-        className: 'feature',
+        className: 'duties-item',
         classNames: {
             bullet: 'bullet',
             content: "content"

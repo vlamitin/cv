@@ -1,7 +1,7 @@
 import React from 'react';
 import './project-item.scss';
 import { Paragraphs } from "Common";
-import {Features} from './features';
+import {Duties} from './duties';
 
 export class ProjectItem extends React.Component {
     static defaultProps = {
@@ -24,7 +24,7 @@ export class ProjectItem extends React.Component {
             classNames
         } = this.props;
 
-        const { name, description, features } = value;
+        const { name, description, duties } = value;
 
         // <div className={classNames.featuresContainer}>
         // <Label content={featuresLabel} className={classNames.featuresLabel} />
@@ -36,7 +36,7 @@ export class ProjectItem extends React.Component {
             <div className={className}>
                 <div className={classNames.name}>{name}</div>
                 <Paragraphs value={description} className={classNames.description} />
-                <Features value={features}/>
+                <Duties value={duties}/>
             </div>
         );
     }

@@ -9,7 +9,6 @@ export class TechStack extends React.Component {
         className: "tech-stack",
         labelClassName:'tech-stack-label',
         listClassName:'items',
-        label: 'Tech Stack'
     };
 
     render() {
@@ -17,13 +16,12 @@ export class TechStack extends React.Component {
             className,
             listClassName,
             labelClassName,
-            label,
             value
         } = this.props;
 
         return (
-            <LabeledList label={label}
-                         items={value}
+            <LabeledList label={value.label}
+                         items={value.items}
                          ItemComponent={TechStackItem}
                          className={className}
                          listClassName={listClassName}

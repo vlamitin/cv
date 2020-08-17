@@ -1,0 +1,186 @@
+{
+  "title": "Vladimir Mitin's CV",
+  "pages": [
+    [
+      [
+        "brief",
+        {
+          "person": {
+            "name": "Vladimir Mitin",
+            "title": "Software Engineer",
+            "residence": "Saint Petersburg, Russia",
+            "headshot": {
+              "source": "/headshot.png"
+            },
+            "mobile": "+7 931-___-__-__",
+            "skype": "vlamitin",
+            "email": "vmitin.dev@gmail.com"
+          },
+          "links": [
+            {
+              "url": "https://github.com/vlamitin",
+              "imageSource": "/github.svg",
+              "imageAlt": "GitHub"
+            },
+            {
+              "url": "https://www.linkedin.com/in/vlamitin",
+              "imageSource": "/linkedin.png",
+              "imageAlt": "LinkedIn"
+            }
+          ],
+          "knowledge": {
+            "technologies": {
+              "items": [
+                {
+                  "name": "Javascript",
+                  "value": "Proficient"
+                },
+                {
+                  "name": "Node.js",
+                  "value": "Advanced"
+                },
+                {
+                  "name": "React",
+                  "value": "Proficient"
+                },
+                {
+                  "name": "Linux",
+                  "value": "Advanced"
+                },
+                {
+                  "name": "Python",
+                  "value": "Intermediate"
+                },
+                {
+                  "name": "Go",
+                  "value": "Intermediate"
+                }
+              ]
+            },
+            "additionalInfo": {
+              "label": "Expertise & Interests",
+              "items": [
+                "User interface",
+                "Developer Experience",
+                "Automation scripts",
+                "System design"
+              ]
+            }
+          }
+        }
+      ],
+      [
+        "experience",
+        {
+          "label": "Experience",
+          "items": [
+            {
+              "title": "Software Engineer",
+              "company": "CSI",
+              "startDate": "January 2017",
+              "endDate": "Present",
+              "description": [
+                "Designing, Testing & Developing company's React and Node.js projects",
+                "Frontend core team leading"
+              ],
+              "techStack": {
+                "label": "Tech stack",
+                "items": [
+                  "Javascript",
+                  "Typescript",
+                  "React",
+                  "Node.js",
+                  "MongoDB",
+                  "Docker"
+                ]
+              },
+              "projects": {
+                "label": "Projects",
+                "items": [
+                  {
+                    "name": "Set Retail 10",
+                    "description": [
+                      "System design and development for a huge retail management system and its sub-systems: cash registers, kiosks, management consoles, etc"
+                    ],
+                    "duties": {
+                      "label": "Duties",
+                      "items":[
+                        "Development administrating: managing command's tickets flow from prioritized backlog to releases",
+                        "Team and people management: mentoring and motivation, team expertise management and delegation, onboarding, performance reviews",
+                        "System design: designing frontend architecture for all company's projects",
+                        "Quality management: code review, tasks automation, linting, testing",
+                        "Knowledge management: best practices documenting and implementation"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Set Wallet",
+                    "description": [
+                      "Development of a microservice-structured Node.js cloud application for loyalty cards"
+                    ],
+                    "duties": {
+                      "label": "Duties",
+                      "items":[
+                        "Debugging and problem solving",
+                        "Documentation and testing"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Set Prisma",
+                    "description": [
+                      "Designing and implementing UI-part of a sophisticated CCTV system"
+                    ],
+                    "duties": {
+                      "label": "Duties",
+                      "items":[
+                        "Designing client-server protocol",
+                        "Domain architecture of a sophisticated system for violations detecting",
+                        "Developing & Testing of a UI-part of the system including video-player and other complicated widgets"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Frontend developer",
+              "company": "Vircities",
+              "startDate": "October 2016",
+              "endDate": "December 2016",
+              "description": [
+                "Development and testing of a browser version for a mobile game"
+              ],
+              "techStack": {
+                "label": "Tech stack",
+                "items": [
+                  "Javascript",
+                  "React",
+                  "React Native",
+                  "Sass",
+                  "Webpack",
+                  "Android"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      [
+        "education",
+        {
+          "label": "Education",
+          "items": [
+            {
+              "degree": "Medical residency degree",
+              "institution": "Volgograd State Medical University",
+              "preClassOf": "Class of ",
+              "classOf": 2011,
+              "postClassOf": ""
+            }
+          ]
+        }
+      ]
+    ]
+  ]
+}
