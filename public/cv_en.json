@@ -33,6 +33,10 @@
               "label": "Technologies",
               "items": [
                 {
+                  "name": "Go",
+                  "value": "Advanced"
+                },
+                {
                   "name": "Javascript",
                   "value": "Proficient"
                 },
@@ -50,10 +54,6 @@
                 },
                 {
                   "name": "Python",
-                  "value": "Intermediate"
-                },
-                {
-                  "name": "Go",
                   "value": "Intermediate"
                 }
               ]
@@ -76,13 +76,35 @@
           "label": "Experience",
           "items": [
             {
+              "title": "Backend developer",
+              "company": "Space 307",
+              "startDate": "October 2020",
+              "endDate": "December 2020",
+              "description": [
+                "Development of Go microservices"
+              ],
+              "techStack": {
+                "label": "Tech stack",
+                "items": [
+                  "Go",
+                  "MySQL",
+                  "Redis",
+                  "Consul",
+                  "Kafka",
+                  "Prometheus",
+                  "ELK",
+                  "Docker"
+                ]
+              }
+            },
+            {
               "title": "Software Engineer",
               "company": "CSI",
               "startDate": "January 2017",
-              "endDate": "Present",
+              "endDate": "September 2020",
               "description": [
-                "Designing, Testing & Developing company's React and Node.js projects",
-                "Frontend core team leading"
+                "Designing, Testing & Developing company's React and Node.js projects.",
+                "Frontend core team leading."
               ],
               "techStack": {
                 "label": "Tech stack",
@@ -166,7 +188,9 @@
             }
           ]
         }
-      ],
+      ]
+    ],
+    [
       [
         "education",
         {

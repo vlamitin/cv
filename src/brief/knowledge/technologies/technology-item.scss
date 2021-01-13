@@ -11,7 +11,7 @@ $tech-item-border-radius: 7px;
   @extend %tech-item-base;
   border-radius: $tech-item-border-radius 0px  0px $tech-item-border-radius;
   font-weight: bold;
-  padding-left: 2px;
+  padding-left: 8px;
 }
 
 .technology-value {

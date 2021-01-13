@@ -1,7 +1,6 @@
 
 .experience-item {
-
-  padding: 10px;
+  padding: 4px 10px;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-areas: "company duration" "title title" "paragraphs paragraphs" "proj proj" "tech tech";
