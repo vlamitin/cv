@@ -7,12 +7,12 @@
         {
           "person": {
             "name": "Vladimir Mitin",
-            "title": "Software Engineer",
-            "residence": "Saint Petersburg, Russia",
+            "title": "Go developer",
+            "residence": "Batumi, Georgia",
             "headshot": {
               "source": "/headshot.png"
             },
-            "mobile": "+7 931-___-__-__",
+            "mobile": "+995 598-__-__-__",
             "skype": "vlamitin",
             "email": "vmitin.dev@gmail.com"
           },
@@ -34,19 +34,15 @@
               "items": [
                 {
                   "name": "Go",
-                  "value": "Advanced"
-                },
-                {
-                  "name": "Javascript",
                   "value": "Proficient"
                 },
                 {
-                  "name": "Node.js",
-                  "value": "Advanced"
+                  "name": "JS/TS",
+                  "value": "Proficient"
                 },
                 {
-                  "name": "React",
-                  "value": "Proficient"
+                  "name": "Databases/SQL",
+                  "value": "Advanced"
                 },
                 {
                   "name": "Linux",
@@ -54,7 +50,7 @@
                 },
                 {
                   "name": "Python",
-                  "value": "Intermediate"
+                  "value": "Advanced"
                 }
               ]
             },
@@ -64,7 +60,7 @@
                 "System design",
                 "Developer Experience",
                 "Automation scripts",
-                "User interface"
+                "Performance tuning"
               ]
             }
           }
@@ -76,10 +72,50 @@
           "label": "Experience",
           "items": [
             {
-              "title": "Backend developer",
+              "title": "Go developer",
+              "company": "Arrival",
+              "startDate": "october 2021",
+              "endDate": "present",
+              "description": [
+                "Development of Go microservices in a Service Platform team"
+              ],
+              "techStack": {
+                "label": "Tech stack",
+                "items": [
+                  "Go",
+                  "PostgreSQL",
+                  "Kafka",
+                  "RabbitMQ",
+                  "Redis",
+                  "GRPC"
+                ]
+              }
+            },
+            {
+              "title": "Go developer",
+              "company": "Ozon",
+              "startDate": "february 2021",
+              "endDate": "october 2021",
+              "description": [
+                "Development of Go microservices in a Marketplace team"
+              ],
+              "techStack": {
+                "label": "Tech stack",
+                "items": [
+                  "Go",
+                  "PostgreSQL",
+                  "Kafka",
+                  "Kubernetes",
+                  "Redis",
+                  "GRPC"
+                ]
+              }
+            },
+            {
+              "title": "Go developer",
               "company": "Space 307",
-              "startDate": "October 2020",
-              "endDate": "December 2020",
+              "startDate": "october 2020",
+              "endDate": "december 2020",
               "description": [
                 "Development of Go microservices"
               ],
@@ -89,7 +125,6 @@
                   "Go",
                   "MySQL",
                   "Redis",
-                  "Consul",
                   "Kafka",
                   "Prometheus",
                   "ELK",
@@ -100,21 +135,21 @@
             {
               "title": "Software Engineer",
               "company": "CSI",
-              "startDate": "January 2017",
-              "endDate": "September 2020",
+              "startDate": "january 2017",
+              "endDate": "september 2020",
               "description": [
-                "Designing, Testing & Developing company's React and Node.js projects.",
+                "Designing, Testing & Developing company's Node.js and React projects.",
                 "Frontend core team leading."
               ],
               "techStack": {
                 "label": "Tech stack",
                 "items": [
-                  "Javascript",
                   "Typescript",
-                  "React",
                   "Node.js",
                   "MongoDB",
-                  "Docker"
+                  "Docker",
+                  "Javascript",
+                  "React"
                 ]
               },
               "projects": {
@@ -122,9 +157,6 @@
                 "items": [
                   {
                     "name": "Set Retail 10",
-                    "description": [
-                      "System design and development for a huge retail management system and its sub-systems: cash registers, kiosks, management consoles, etc"
-                    ],
                     "duties": {
                       "label": "Duties",
                       "items":[
@@ -137,29 +169,12 @@
                     }
                   },
                   {
-                    "name": "Set Wallet",
-                    "description": [
-                      "Development of a microservice-structured Node.js cloud application for loyalty cards"
-                    ],
+                    "name": "Set Wallet, Set Prisma",
                     "duties": {
                       "label": "Duties",
                       "items":[
-                        "Debugging and problem solving",
-                        "Documentation and testing"
-                      ]
-                    }
-                  },
-                  {
-                    "name": "Set Prisma",
-                    "description": [
-                      "Designing and implementing UI-part of a sophisticated CCTV system"
-                    ],
-                    "duties": {
-                      "label": "Duties",
-                      "items":[
-                        "Designing client-server protocol",
                         "Domain architecture of a sophisticated system for violations detecting",
-                        "Developing & Testing of a UI-part of the system including video-player and other complicated widgets"
+                        "Developing & Testing of a UI-part of the system"
                       ]
                     }
                   }

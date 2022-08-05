@@ -7,12 +7,12 @@
         {
           "person": {
             "name": "Владимир Митин",
-            "title": "Разработчик",
-            "residence": "Санкт-Петербург, Россия",
+            "title": "Go разработчик",
+            "residence": "Батуми, Грузия",
             "headshot": {
               "source": "/headshot.png"
             },
-            "mobile": "+7 931-___-__-__",
+            "mobile": "+995 598-__-__-__",
             "skype": "vlamitin",
             "email": "vmitin.dev@gmail.com"
           },
@@ -34,19 +34,15 @@
               "items": [
                 {
                   "name": "Go",
-                  "value": "Advanced"
-                },
-                {
-                  "name": "Javascript",
                   "value": "Proficient"
                 },
                 {
-                  "name": "Node.js",
-                  "value": "Advanced"
+                  "name": "JS/TS",
+                  "value": "Proficient"
                 },
                 {
-                  "name": "React",
-                  "value": "Proficient"
+                  "name": "Databases/SQL",
+                  "value": "Advanced"
                 },
                 {
                   "name": "Linux",
@@ -54,7 +50,7 @@
                 },
                 {
                   "name": "Python",
-                  "value": "Intermediate"
+                  "value": "Advanced"
                 }
               ]
             },
@@ -64,7 +60,7 @@
                 "System design",
                 "Developer Experience",
                 "Automation scripts",
-                "User interface"
+                "Performance tuning"
               ]
             }
           }
@@ -76,10 +72,50 @@
           "label": "Опыт",
           "items": [
             {
-              "title": "Бэкенд разработчик",
+              "title": "Go разработчик",
+              "company": "Arrival",
+              "startDate": "октябрь 2021",
+              "endDate": "настоящее время",
+              "description": [
+                "Разработка микросервисов на Go в команде Service Platform"
+              ],
+              "techStack": {
+                "label": "Используемые технологии",
+                "items": [
+                  "Go",
+                  "PostgreSQL",
+                  "Kafka",
+                  "RabbitMQ",
+                  "Redis",
+                  "GRPC"
+                ]
+              }
+            },
+            {
+              "title": "Go разработчик",
+              "company": "Ozon",
+              "startDate": "февраль 2021",
+              "endDate": "октябрь 2021",
+              "description": [
+                "Разработка микросервисов на Go в команде Маркетплейса"
+              ],
+              "techStack": {
+                "label": "Используемые технологии",
+                "items": [
+                  "Go",
+                  "PostgreSQL",
+                  "Kafka",
+                  "Kubernetes",
+                  "Redis",
+                  "GRPC"
+                ]
+              }
+            },
+            {
+              "title": "Go разработчик",
               "company": "Space 307",
-              "startDate": "Октябрь 2020",
-              "endDate": "Декабрь 2020",
+              "startDate": "октябрь 2020",
+              "endDate": "декабрь 2020",
               "description": [
                 "Разработка микросервисов на Go в финтех продукте"
               ],
@@ -89,7 +125,6 @@
                   "Go",
                   "MySQL",
                   "Redis",
-                  "Consul",
                   "Kafka",
                   "Prometheus",
                   "ELK",
@@ -100,21 +135,21 @@
             {
               "title": "Разработчик",
               "company": "CSI",
-              "startDate": "Январь 2017",
-              "endDate": "Сентябрь 2020",
+              "startDate": "январь 2017",
+              "endDate": "сентябрь 2020",
               "description": [
-                "Проектирование, разработка и отладка React и Node.js проектов в компании.",
+                "Проектирование, разработка и отладка Node.js и React проектов в компании.",
                 "Управление командой Frontend core."
               ],
               "techStack": {
                 "label": "Используемые технологии",
                 "items": [
-                  "Javascript",
                   "Typescript",
-                  "React",
                   "Node.js",
                   "MongoDB",
-                  "Docker"
+                  "Docker",
+                  "Javascript",
+                  "React"
                 ]
               },
               "projects": {
@@ -122,9 +157,6 @@
                 "items": [
                   {
                     "name": "Set Retail 10",
-                    "description": [
-                      "Проектирование и разработка сложной retail management system и ее подсистем"
-                    ],
                     "duties": {
                       "label": "Обязанности",
                       "items":[
@@ -137,29 +169,12 @@
                     }
                   },
                   {
-                    "name": "Set Wallet",
-                    "description": [
-                      "Разработка облачного микросервисного Node.js cloud приложения для карт лояльности"
-                    ],
-                    "duties": {
-                      "label": "Обязанности",
-                      "items":[
-                        "Разработка, решение проблем",
-                        "Документация и отладка"
-                      ]
-                    }
-                  },
-                  {
-                    "name": "Set Prisma",
-                    "description": [
-                      "Проектирование и реализация UI-части сложной системы видеонаблюдения"
-                    ],
+                    "name": "Set Wallet, Set Prisma",
                     "duties": {
                       "label": "Обязанности",
                       "items":[
                         "Проектирование протокола общения клиент-сервер",
-                        "Доменная архитектура",
-                        "Разработка и отладка UI-части, в т.ч. сложных виджетов"
+                        "Доменная архитектура, документация и отладка"
                       ]
                     }
                   }
